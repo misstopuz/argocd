@@ -6,6 +6,6 @@ metadata:
   labels:
     argocd.argoproj.io/secret-type: repository
 stringData:
-  url: https://github.com/misstopuz
+  url: https://github.com/misstopuz/argocd
   name: argocd-github
   type: git

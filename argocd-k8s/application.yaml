@@ -6,7 +6,7 @@ metadata:
 spec:
   project: argocd
   source:
-    repoURL: https://github.com/misstopuz
+    repoURL: https://github.com/misstopuz/argocd
     path: argocd-install/argo-cd
     targetRevision: HEAD
     helm:
@@ -28,7 +28,7 @@ metadata:
 spec:
   project: argocd
   source:
-    repoURL: https://github.com/misstopuz
+    repoURL: https://github.com/misstopuz/argocd
     path: argocd-apps
     targetRevision: HEAD
     directory:
@@ -50,7 +50,7 @@ metadata:
 spec:
   project: argocd
   source:
-    repoURL: https://github.com/misstopuz
+    repoURL: https://github.com/misstopuz/argocd
     path: argocd-appprojects
     targetRevision: HEAD
     directory:
