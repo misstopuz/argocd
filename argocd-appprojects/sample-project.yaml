@@ -1,4 +1,3 @@
-cat << EOF > argocd-appprojects/sample-project.yaml
 apiVersion: argoproj.io/v1alpha1
 kind: AppProject
 metadata:
